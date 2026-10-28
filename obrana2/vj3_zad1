@@ -1,0 +1,27 @@
+// Online C++ compiler (editor)
+// Write and run C++ online using this editor.
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+void print_vector(const std::vector<int>& v){
+    
+}
+void input_vector(std::vector<int>& v){
+    std::cout<<"Unesi broj:"<<std::endl;
+    int i;
+    std::cin>> i;
+    while(i!=0){
+        std::cout<<i<< std::endl;
+        v.push_back(i);
+        std::cin>> i;
+    }
+}
+
+int main() {
+    std::vector<int> br;
+    input_vector(br);
+    return 0;
+}
